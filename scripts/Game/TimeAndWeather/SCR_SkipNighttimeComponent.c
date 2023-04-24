@@ -23,7 +23,16 @@ class SCR_SkipNighttimeComponent : ScriptComponent
 	
 	override void EOnInit(IEntity owner)
 	{
+		// Run handler only on authority
+		RplComponent rpl = RplComponent.Cast(owner.FindComponent(RplComponent));
+		if (!rpl)
+			return;
+		if (rpl.Role() != RplRole.Authority)
+			return;
+
 		timeManager = TimeAndWeatherManagerEntity.Cast(owner);
+		if (!timeManager)
+			return;
 		SkipNighttimeHandler();
 		// Recall handler based on timeout scaled by the time multiplier
 		GetGame().GetCallqueue().CallLater(SkipNighttimeHandler, m_fTimeout / m_fTimeMultiplier * 1000, true);
