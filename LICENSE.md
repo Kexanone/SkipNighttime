@@ -17,13 +17,6 @@ With this licence you are free to adapt (i.e. modify, rework or update) and shar
 - **Arma Only** - You may not convert or adapt this material to be used in other games
   than Arma.
 
-By exercising the Licensed Rights (defined below), You accept and agree to be bound 
-by the terms and conditions of this Arma Public License ("Public License"). To the 
-extent this Public License may be interpreted as a contract, You are granted the 
-Licensed Rights in consideration of Your acceptance of these terms and conditions, 
-and the Licensor grants You such rights in consideration of benefits the Licensor 
-receives from making the Licensed Material available under these terms and conditions.
-
 ## Full version of licence
 
 See https://www.bohemia.net/community/licenses/arma-public-license
