@@ -1,7 +1,0 @@
-TimeAndWeatherManagerEntity {
- ID "5244F08C9618CADD"
- components {
-  SCR_SkipNighttimeComponent "{5D13624247267937}" {
-  }
- }
-}
